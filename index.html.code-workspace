@@ -1,13 +1,38 @@
-{
-	"folders": [
-		{
-			"path": "../../mysite/index.html"
-		},
-		{
-			"path": "../../mysite/style.css"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "index.html"
-	}
-}
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My New Minimal Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="logo">SAORI</div>
+        <nav class="nav-links">
+            <a href="#about">ABOUT</a>
+            <a href="#gallery">GALLERY</a>
+            <a href="#contact">CONTACT</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-image">
+                <img src="your-best-photo.jpg" alt="Main Visual">
+            </div>
+        </section>
+
+        <section id="about" class="concept-section">
+            <p class="en-sub">TRAVEL & LIFE</p>
+            <h2>美しい景色と、心地よい時間を記憶する。</h2>
+            <p class="description">
+                たくさんの自然に包まれた「札幌・北野」にある、実家。<br>
+                心が癒される特別な場所。
+            </p>
+        </section>
+    </main>
+
+</body>
+</html>
